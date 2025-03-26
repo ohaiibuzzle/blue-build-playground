@@ -74,7 +74,7 @@ modules:
   - type: script
     scripts:
       - 50-base-customizations.sh
-      # - 51-brew.sh
+      - 51-nvidia.sh
       - 52-buzzle-dotfiles.sh
 
   - type: default-flatpaks
